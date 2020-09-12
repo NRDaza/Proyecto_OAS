@@ -28,6 +28,6 @@ Realizado esto, la página debera presentar las siguiente  imagenes de cada uno 
   - Inicio : componente donde se agrega el nombre de los equipos. 
      ![Screenshot](agregar.PNG)
   - Tabla de posiciones: componente donde se presentan los puntos y posiciones actuales de los 4 equipos.
-    ![Screenshot](equipos.PNG)
+    ![Screenshot](tabla.PNG)
   - Partidos: componente donde se presenta los enfretamiento y el usuario ingresa el resultado númerico de los goles de cada equipo. Además lo compone dos botones, Actualizar       Resultados (actualiza la tabla de posicion según los marcadores ingresado ) y Reiniciar tabla de posiciones( regresa a cero los puntos de todos los equipos)
   - ![Screenshot](eq.PNG)
