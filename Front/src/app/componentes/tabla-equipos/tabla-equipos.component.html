@@ -1,0 +1,20 @@
+<div class="col-md-4" >
+
+    <table class="table">
+        <thead>
+          <tr>
+            <th scope="col">Posición</th>
+            <th scope="col">Equipo</th>
+            <th scope="col">Puntos</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr *ngFor= "let equipo of equipos; index as i">
+            <th scope="row">{{i+1}}</th>
+            <td>{{equipo.equipo}}</td>
+            <td>{{equipo.puntos}}</td>
+          </tr>
+        </tbody>
+      </table>
+
+</div>
