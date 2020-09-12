@@ -35,4 +35,4 @@ Realizado esto, la página debera presentar las siguiente  imagenes de cada uno 
     
   - Partidos: componente donde se presenta los enfretamiento y el usuario ingresa el resultado númerico de los goles de cada equipo. Además lo compone dos botones, Actualizar       Resultados (actualiza la tabla de posicion según los marcadores ingresado ) y Reiniciar tabla de posiciones( regresa a cero los puntos de todos los equipos)
   
-   ![Screenshot](eq.PNG)
+    ![Screenshot](eq.PNG)
