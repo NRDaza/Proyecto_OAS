@@ -1,0 +1,53 @@
+
+<div class="col-md-4" >
+  <form > 
+    <div class="form-group">  
+      <table class="table">
+          <thead>
+            <tr>
+              <th scope="col"></th>
+              <th scope="col">Equipo Local</th>
+              <th scope="col"></th>
+              <th scope="col">Equipo visitante</th>
+              <th scope="col"></th>
+            </tr>
+          </thead>
+
+          <tbody>
+            <tr >
+              <th scope="row">
+                  <input type="text" name="GolesL_1"   [(ngModel)]="goles.GolL1" placeholder="GL" class="from-control" autofocus>
+                </th>
+
+                <td>{{equipos[0].equipo}}</td>
+                <td>VS</td>
+                <td>{{equipos[1].equipo}}</td>
+                <td>
+                  <input type="text" name="GolesV_1" [(ngModel)]="goles.GolV1" placeholder="GV" class="from-control" >
+                </td>
+              </tr>
+
+              <tr >
+
+                <th scope="row">
+                  <input type="text" name="GolesL_2" [(ngModel)]="goles.GolL2" placeholder="GL" class="from-control" > 
+                </th>
+                <td>{{equipos[2].equipo}}</td>
+                <td>VS</td>
+                <td>{{equipos[3].equipo}}</td>
+                <td>
+                  <input type="text" name="GolesV_2"  [(ngModel)]="goles.GolV2" placeholder="GV" class="from-control" >
+                </td>
+            </tr>
+          </tbody>
+      </table>
+    </div>
+
+  </form>     
+  <button (click)="victoria()" style="margin: 10px">
+    Actualizar resultados
+  </button>   
+
+  <button (click)="reiniciarTabla()" style="margin-left: 10px" >
+    Reiniciar Tabla Posiciones
+  </button>   
