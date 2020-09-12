@@ -1,3 +1,5 @@
+
+<div style="text-align: right">
 # Proyecto_OAS
 Prueba técnica (Cuadrangular de fútbol)
 
@@ -40,4 +42,4 @@ Realizado esto, la página debera presentar las siguiente  imagenes de cada uno 
   
     ![Screenshot](eq.PNG)
     
-   
+   </div >
